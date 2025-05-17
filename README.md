@@ -1,0 +1,1 @@
+Scripts for cloning necessary repo for vitamin AOSP building
