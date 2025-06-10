@@ -1,4 +1,5 @@
 #!/bin/bash
+
 cd ..
 
 echo " installing necessary tools"
@@ -18,7 +19,7 @@ echo
 sleep 0.5
 
 echo "Cloning device tree LOV"
-git clone https://github.com/lineageos-on-vitamin/android_device_oneplus_vitamin.git -b lineage-22.2 device/oneplus/vitamin
+git clone https://github.com/Luffy-456/Yaap_android_device_oneplus_vitamin.git -b yaapv2 device/oneplus/vitamin
 
 sleep 0.5
 echo
@@ -42,7 +43,7 @@ sleep 0.5
 echo
 echo
 echo "Cloning hardware LOV-patched from mine"
-git clone https://github.com/Luffy-456/android_hardware_oplus.git -b lineage-22.2 hardware/oplus
+git clone https://github.com/Luffy-456/Yaap_android_hardware_oplus.git -b yaapv2 hardware/oplus
 
 sleep 0.5
 echo
@@ -65,6 +66,6 @@ sleep 0.5
 # 	git lfs pull https://gitlab.com/pixelos-aosp/vendor_gms.git -b fifteen vendor/gms
 
 
-echo "All repos cloned successfully!"
+echo "All repos cloned successfully! I'm Luffy"
 echo " LET'S DO SOME BUILDING"
 source build/envsetup.sh
