@@ -64,6 +64,12 @@ sleep 0.5
 # 				OR
 # 	git lfs pull https://gitlab.com/pixelos-aosp/vendor_gms.git -b fifteen vendor/gms
 
+echo
+echo
+echo "Cloning BCR"
+git clone https://github.com/Evolution-X-AOSP/vendor_bcr -b udc vendor/bcr
+
+sleep 0.5
 
 echo "All repos cloned successfully!"
 echo " LET'S DO SOME BUILDING"
