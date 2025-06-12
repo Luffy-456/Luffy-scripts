@@ -6,4 +6,4 @@ Script for removing unnecessary files for vitamin
 
 remove.sh 
 
-this brach is for yaap
+this branch is for yaap
