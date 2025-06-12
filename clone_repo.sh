@@ -19,7 +19,14 @@ echo
 sleep 0.5
 
 echo "Cloning device tree LOV"
-git clone https://github.com/Luffy-456/Yaap_android_device_oneplus_vitamin.git -b yaapv2 device/oneplus/vitamin
+git clone https://github.com/Luffy-456/Yaap_android_device_oneplus_vitamin.git -b infinityx device/oneplus/vitamin
+
+
+sleep 0.5
+echo
+echo
+echo "Cloning hardware LOV-patched from mine"
+git clone https://github.com/Luffy-456/Yaap_android_hardware_oplus.git -b infinityx hardware/oplus
 
 sleep 0.5
 echo
@@ -39,11 +46,6 @@ echo
 echo "Cloning vendor LOV"
 git clone https://gitlab.com/Mashopy/proprietary_vendor_oneplus_vitamin.git -b lineage-22.2 vendor/oneplus/vitamin
 
-sleep 0.5
-echo
-echo
-echo "Cloning hardware LOV-patched from mine"
-git clone https://github.com/Luffy-456/Yaap_android_hardware_oplus.git -b yaapv2 hardware/oplus
 
 sleep 0.5
 echo
@@ -67,8 +69,8 @@ sleep 0.5
 
 echo
 echo
-echo "Cloning BCR"
-git clone https://github.com/Evolution-X-AOSP/vendor_bcr -b udc vendor/bcr
+#echo "Cloning BCR"
+#git clone https://github.com/Evolution-X-AOSP/vendor_bcr -b udc vendor/bcr
 
 sleep 0.5
 
